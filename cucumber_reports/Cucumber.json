@@ -1,0 +1,1536 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.721Z",
+        "line": 16,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Inputs Valid Year \"2000\" To \"2005\" In The Textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2005\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_inputs_valid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates Search Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_validates_search_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.862Z",
+        "line": 17,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 181000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Inputs Valid Year \"2006\" To \"2010\" In The Textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2006\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2010\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_inputs_valid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates Search Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_validates_search_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 206000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2610000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.893Z",
+        "line": 18,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-valid-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 287000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Inputs Valid Year \"2017\" To \"2022\" In The Textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2017\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_inputs_valid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates Search Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_validates_search_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 169000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.925Z",
+        "line": 19,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-valid-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 161000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Inputs Valid Year \"\" To \"2000\" In The Textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"2000\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_inputs_valid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 564000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates Search Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_validates_search_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 177000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.944Z",
+        "line": 20,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-valid-data;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 173000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Inputs Valid Year \"2000\" To \"\" In The Textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2000\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_inputs_valid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates Search Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_validates_search_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 300000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.963Z",
+        "line": 31,
+        "name": "Search Filter Validation with invalid data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-invalid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Use inputs invalid year \"2023\" to \"2024\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2023\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.use_inputs_invalid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should see \"No Search results\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Search results\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_should_see_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.980Z",
+        "line": 32,
+        "name": "Search Filter Validation with invalid data",
+        "description": "",
+        "id": "e-search-year-filter-validation;search-filter-validation-with-invalid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 509000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Use inputs invalid year \"1250\" to \"1600\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1250\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"1600\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.use_inputs_invalid_year_to_in_the_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Clicks On Go Button",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_clicks_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Navigates To Search Page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should see \"No Search results\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Search results\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinations.SearchPageSteps.user_should_see_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "E Search Year Filter Validation",
+    "description": "",
+    "id": "e-search-year-filter-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/AppFeatures/SearchPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:03.999Z",
+        "line": 9,
+        "name": "Search Filter Validation With Valid Data",
+        "description": "",
+        "id": "e-search-results-by-filter;search-filter-validation-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 247000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Inputs Following Valid Year Data In Search Field And Validates",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.use_input_following_valid_year_in_search_field_and_validates(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "From",
+                  "To"
+                ]
+              },
+              {
+                "cells": [
+                  "2021",
+                  "2021"
+                ]
+              },
+              {
+                "cells": [
+                  "2022",
+                  "2022"
+                ]
+              },
+              {
+                "cells": [
+                  "2011",
+                  "2012"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 282000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.030Z",
+        "line": 19,
+        "name": "Search Filter Validation With InValid Data",
+        "description": "",
+        "id": "e-search-results-by-filter;search-filter-validation-with-invalid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Input Following invalid Data In Search Field And Validates",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.use_input_following_in_valid_year_in_search_field_and_validates(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "From",
+                  "To"
+                ]
+              },
+              {
+                "cells": [
+                  "2023",
+                  "2025"
+                ]
+              },
+              {
+                "cells": [
+                  "1600",
+                  "1800"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 145000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.041Z",
+        "line": 28,
+        "name": "Search Filter Validation With Given Inputs(Specific Data Validation)",
+        "description": "",
+        "id": "e-search-results-by-filter;search-filter-validation-with-given-inputs(specific-data-validation)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Inputs Valid Year Data In Search Field And Validates  With Given Data",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_inputs_valid_year_data_in_search_field_and_validates_with_given_data(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "From",
+                  "To"
+                ]
+              },
+              {
+                "cells": [
+                  "2021",
+                  "2021"
+                ]
+              },
+              {
+                "cells": [
+                  "2022",
+                  "2022"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 138000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.052Z",
+        "line": 37,
+        "name": "Validate The Sorted Dropdown (Descending)",
+        "description": "",
+        "id": "e-search-results-by-filter;validate-the-sorted-dropdown-(descending)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Clicks On Dropdown And Selects \"newest to oldest\" Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newest to oldest\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Stepdefinations.SearchPageFilterSteps.user_clicks_on_dropdown_and_selects_option(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Should See Oldest Publication \"1 April 1898\" On Top Of Publication List",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 April 1898\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Stepdefinations.SearchPageFilterSteps.user_should_see_oldest_publication_on_top_of_publication_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 149000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.062Z",
+        "line": 44,
+        "name": "Validate all Year links",
+        "description": "",
+        "id": "e-search-results-by-filter;validate-all-year-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Clicks On Links In Year Sections And Validates",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_clicks_on_links_in_year_sections_and_validates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.073Z",
+        "line": 50,
+        "name": "Search Page Access Verification",
+        "description": "",
+        "id": "e-search-results-by-filter;search-page-access-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks on Only content I have access to Link",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_clicks_on_only_content_i_have_access_to_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User Should Verify access Content available On Publication List",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_should_varify_access_content_available_on_publication_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User Clicks On Only Open Access Link",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_clicks_on_only_open_access_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User Should See Open Access On Publication List",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_should_see_open_access_on_publication_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User invokes the browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to the search page",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_navigates_to_the_search_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T12:39:04.083Z",
+        "line": 59,
+        "name": "Search Page Download Button Verification",
+        "description": "",
+        "id": "e-search-results-by-filter;search-page-download-button-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User Clicks On Citations Checkbox",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_clicks_on_citations_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User Should Able To Download RIS",
+            "match": {
+              "location": "Stepdefinations.SearchPageFilterSteps.user_should_able_to_download_ris()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User Close The Browser",
+            "match": {
+              "location": "Stepdefinations.SearchPageSteps.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "E Search Results by Filter",
+    "description": "",
+    "id": "e-search-results-by-filter",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/AppFeatures/SearchPageFilter.feature",
+    "tags": []
+  }
+]
