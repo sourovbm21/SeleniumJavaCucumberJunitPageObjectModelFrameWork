@@ -27,6 +27,8 @@
 
 	<dependencies>
 
+
+
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -54,6 +56,18 @@
 			<version>7.6.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.6.0</version>
+		</dependency>
+
+
+
+
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -85,13 +99,15 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-					<properties>
-						<!-- Work around. Surefire does not include enough information to disambiguate 
-							between different examples and scenarios. -->
-						<configurationParameters>
-							cucumber.junit-platform.naming-strategy=long
-						</configurationParameters>
-					</properties>
+				        <suiteXmlFiles> 
+				          <suiteXmlFile>src/test/java/Smoke.xml</suiteXmlFile> 
+						</suiteXmlFiles> 
+					<!-- <includes>
+						<include>**/RunWithTestNg.java</include>
+					</includes> -->
+					<!-- <properties> Work around. Surefire does not include enough information 
+						to disambiguate between different examples and scenarios. <configurationParameters> 
+						cucumber.junit-platform.naming-strategy=long </configurationParameters> </properties> -->
 				</configuration>
 			</plugin>
 		</plugins>

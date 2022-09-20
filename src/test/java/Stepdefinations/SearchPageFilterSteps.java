@@ -3,8 +3,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import org.junit.Assert;
+//import org.junit.Assert;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import com.qa.TestBase.TestBase;

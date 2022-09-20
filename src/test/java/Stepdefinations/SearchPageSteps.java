@@ -2,7 +2,9 @@ package Stepdefinations;
 
 import java.io.IOException;
 
-import org.junit.Assert;
+import org.testng.Assert;
+
+//import org.junit.Assert;
 
 import com.qa.TestBase.TestBase;
 import com.qa.pages.SearchPage;
