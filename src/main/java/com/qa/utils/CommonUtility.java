@@ -7,7 +7,12 @@ import java.net.URL;
 
 public class CommonUtility {
 	
-	
+	/**
+	 * 
+	 * @param linkUrl
+	 * @throws IOException
+	 * @author Tohidur Rahman
+	 */
 	
 	
 	public static void  checkBrokenLinks(String linkUrl) throws IOException {

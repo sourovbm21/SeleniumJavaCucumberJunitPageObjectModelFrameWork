@@ -1,5 +1,11 @@
 package TestRunner;
 
+
+/**
+ * 
+ * This is a runner class for Junit 
+ * @author Tohidur Rahman
+ */
 import org.junit.runner.RunWith;
 
 

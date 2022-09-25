@@ -1,5 +1,11 @@
 package TestRunner;
 
+
+/**
+ * 
+ * This is a runner class for TestNG
+ * @author Tohidur Rahman
+ */
 import org.testng.annotations.DataProvider;
 //import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;

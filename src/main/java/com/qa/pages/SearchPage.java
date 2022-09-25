@@ -14,9 +14,10 @@ import com.qa.utils.TimeUtility;
 
 public class SearchPage extends TestBase {
 
-	/* 
+	/**
 	 * Object Repository (OR)
 	 * This Page Is Only For Declaring Locators
+	 * @author Tohidur Rahman
 	 */
 	
 	@FindBy(css = "#yearFrom")
@@ -137,7 +138,7 @@ public class SearchPage extends TestBase {
 			System.out.println("****************************************");
 			System.out.println(list_Item_Name);
 			String all_Year = list_Item_Name.substring(list_Item_Name.length() - 4);//2018
-			if ((Integer.parseInt(all_Year) >= x) || (Integer.parseInt(all_Year) <= y)) {
+			if ((Integer.parseInt(all_Year) >= x) && (Integer.parseInt(all_Year) <= y)) {
 				System.out.println("Test passed :--> " + all_Year);
 			} else {
 				System.out.println("Test fail :---> " + all_Year);
