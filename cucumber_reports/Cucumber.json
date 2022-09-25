@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9365055000,
+              "duration": 10440094000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 58288000,
+              "duration": 82372000,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-25T18:01:28.947Z",
+        "start_timestamp": "2022-09-25T18:45:33.414Z",
         "line": 59,
         "name": "Search Page Download Button Verification",
         "description": "",
@@ -46,7 +46,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65870000,
+              "duration": 67984000,
               "status": "passed"
             },
             "line": 60,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 2065365000,
+              "duration": 2103236000,
               "status": "passed"
             },
             "line": 61,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 1046392000,
+              "duration": 947733000,
               "status": "passed"
             },
             "line": 62,

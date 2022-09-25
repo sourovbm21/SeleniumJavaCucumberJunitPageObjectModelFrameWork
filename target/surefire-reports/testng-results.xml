@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T18:45:31Z" name="Surefire suite" finished-at="2022-09-25T18:45:47Z" duration-ms="15797">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.RunWithTestNg@7ed7259e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-25T18:45:31Z" name="Surefire test" finished-at="2022-09-25T18:45:47Z" duration-ms="15797">
+      <class name="TestRunner.RunWithTestNg">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.RunWithTestNg@7ed7259e]" started-at="2022-09-25T18:45:31Z" name="setUpClass" finished-at="2022-09-25T18:45:33Z" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.RunWithTestNg@7ed7259e]" started-at="2022-09-25T18:45:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-25T18:45:47Z" duration-ms="13947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Page Download Button Verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[E Search Results by Filter]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.RunWithTestNg@7ed7259e]" started-at="2022-09-25T18:45:47Z" name="tearDownClass" finished-at="2022-09-25T18:45:47Z" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.RunWithTestNg -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

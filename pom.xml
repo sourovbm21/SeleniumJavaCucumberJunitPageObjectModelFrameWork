@@ -13,9 +13,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>11.0.15.1</java.version>
-		<maven.compiler.version>3.10.1</maven.compiler.version>
-		<maven.surefire.version>3.0.0-M7</maven.surefire.version>
+		<java.version>11</java.version>
+		<maven.compiler.version>3.8.1</maven.compiler.version>
+		<maven.surefire.version>2.22.2</maven.surefire.version>
 	</properties>
 
 
@@ -78,10 +78,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
 				<configuration>
-					 <suiteXmlFiles> <suiteXmlFile>Smoke.xml</suiteXmlFile> </suiteXmlFiles> 
-					<!--<includes>
+				<!-- 	 <suiteXmlFiles> <suiteXmlFile>Smoke.xml</suiteXmlFile> </suiteXmlFiles>   -->
+				 <includes>
 						<include>**/TestRunner/RunWithTestNg.java</include>
-					</includes>-->
+					</includes> 
 					<!-- <properties> Work around. Surefire does not include enough information 
 						to disambiguate between different examples and scenarios. <configurationParameters> 
 						cucumber.junit-platform.naming-strategy=long </configurationParameters> </properties> -->
